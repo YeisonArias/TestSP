@@ -10,7 +10,7 @@ pipeline{
     stages{
         stage('Actualizar fuentes Nodo Windows') {
             steps{
-                git url: 'https://github.com/YeisonArias/TestJenkins.git', branch: 'master'
+                git url: 'https://github.com/YeisonArias/TestSP.git', branch: 'master'
             }
         }
 
